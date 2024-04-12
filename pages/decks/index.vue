@@ -1,5 +1,6 @@
 <script setup>
 const { data: decks, error, pending } = await useApiFetch("/decks");
+console.log("here");
 </script>
 
 <template>
